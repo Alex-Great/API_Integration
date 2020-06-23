@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Avenir&display=swap');
+.api-body {
+    position: relative;
+}
+.all-member-tbl {
+    padding: 10px;
+}
+.all-member-tbl h2 {
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+}
+.loading-area {
+    position: absolute;
+    top: 40vh;
+    right: 40vw;
+}
+.download-btn {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select-bar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.select-bar select {
+    padding: 5px;
+    border-radius: 10px;
+}
+.select-bar select:focus {
+    outline: none;
+}
